@@ -14,6 +14,9 @@
 		65D22DB72AD5BEAE00BBA2F7 /* swfit_examenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DB62AD5BEAE00BBA2F7 /* swfit_examenTests.swift */; };
 		65D22DC12AD5BEAE00BBA2F7 /* swfit_examenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DC02AD5BEAE00BBA2F7 /* swfit_examenUITests.swift */; };
 		65D22DC32AD5BEAE00BBA2F7 /* swfit_examenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DC22AD5BEAE00BBA2F7 /* swfit_examenUITestsLaunchTests.swift */; };
+		65D22DD72AD5C0BB00BBA2F7 /* NetworkAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DD62AD5C0BB00BBA2F7 /* NetworkAPIService.swift */; };
+		65D22DDA2AD5C0D700BBA2F7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 65D22DD92AD5C0D700BBA2F7 /* Alamofire */; };
+		65D22DDC2AD5C1AA00BBA2F7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DDB2AD5C1AA00BBA2F7 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,8 @@
 		65D22DBC2AD5BEAE00BBA2F7 /* swfit-examenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swfit-examenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D22DC02AD5BEAE00BBA2F7 /* swfit_examenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examenUITests.swift; sourceTree = "<group>"; };
 		65D22DC22AD5BEAE00BBA2F7 /* swfit_examenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65D22DD62AD5C0BB00BBA2F7 /* NetworkAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIService.swift; sourceTree = "<group>"; };
+		65D22DDB2AD5C1AA00BBA2F7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D22DDA2AD5C0D700BBA2F7 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +100,10 @@
 		65D22DA42AD5BEAC00BBA2F7 /* swfit-examen */ = {
 			isa = PBXGroup;
 			children = (
+				65D22DD12AD5C05900BBA2F7 /* Framework */,
+				65D22DD02AD5C05100BBA2F7 /* Domain */,
+				65D22DCF2AD5C04B00BBA2F7 /* Data */,
 				65D22DA52AD5BEAC00BBA2F7 /* swfit_examenApp.swift */,
-				65D22DA72AD5BEAC00BBA2F7 /* ContentView.swift */,
 				65D22DA92AD5BEAE00BBA2F7 /* Assets.xcassets */,
 				65D22DAB2AD5BEAE00BBA2F7 /* Preview Content */,
 			);
@@ -127,6 +135,62 @@
 			path = "swfit-examenUITests";
 			sourceTree = "<group>";
 		};
+		65D22DCF2AD5C04B00BBA2F7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				65D22DD42AD5C09400BBA2F7 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		65D22DD02AD5C05100BBA2F7 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		65D22DD12AD5C05900BBA2F7 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				65D22DD32AD5C08400BBA2F7 /* ViewModels */,
+				65D22DD22AD5C07E00BBA2F7 /* View */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		65D22DD22AD5C07E00BBA2F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65D22DA72AD5BEAC00BBA2F7 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65D22DD32AD5C08400BBA2F7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		65D22DD42AD5C09400BBA2F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65D22DD52AD5C0A200BBA2F7 /* Network */,
+				65D22DDB2AD5C1AA00BBA2F7 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65D22DD52AD5C0A200BBA2F7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				65D22DD62AD5C0BB00BBA2F7 /* NetworkAPIService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +207,9 @@
 			dependencies = (
 			);
 			name = "swfit-examen";
+			packageProductDependencies = (
+				65D22DD92AD5C0D700BBA2F7 /* Alamofire */,
+			);
 			productName = "swfit-examen";
 			productReference = 65D22DA22AD5BEAC00BBA2F7 /* swfit-examen.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +282,9 @@
 				Base,
 			);
 			mainGroup = 65D22D992AD5BEAC00BBA2F7;
+			packageReferences = (
+				65D22DD82AD5C0D700BBA2F7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 65D22DA32AD5BEAC00BBA2F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D22DD72AD5C0BB00BBA2F7 /* NetworkAPIService.swift in Sources */,
 				65D22DA82AD5BEAC00BBA2F7 /* ContentView.swift in Sources */,
+				65D22DDC2AD5C1AA00BBA2F7 /* Movie.swift in Sources */,
 				65D22DA62AD5BEAC00BBA2F7 /* swfit_examenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +649,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65D22DD82AD5C0D700BBA2F7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65D22DD92AD5C0D700BBA2F7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65D22DD82AD5C0D700BBA2F7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 65D22D9A2AD5BEAC00BBA2F7 /* Project object */;
 }
