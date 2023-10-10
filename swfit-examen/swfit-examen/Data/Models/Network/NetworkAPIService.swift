@@ -16,12 +16,8 @@ class NetworkAPIService{
     func getMovies(url: URL) async -> MovieResponse? {
             var request = URLRequest(url: url)
             request.headers.add(.authorization(bearerToken: apiKey))
-        
-            
             let taskRequest = AF.request(request).validate()
-            print ("Request: \(taskRequest)")
             let response = await taskRequest.serializingData().response
-            print ("Response: \(response)")
             switch response.result {
             case .success(let data):
                 do {

@@ -16,6 +16,11 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Text("Lista de Peliculas")
+            if viewModel.isLoading {
+                Text("Esta cargando")
+            } else if let error = viewModel.error {
+                Text("Error: \(error.localizedDescription)")
+            } else {
                 List(viewModel.movies) {movie in
                     HStack {
                         if let posterPath = movie.posterPath, let url = URL(string: "https://image.tmdb.org/t/p/original\(posterPath)") {
@@ -47,6 +52,7 @@ struct ContentView: View {
                         .padding(.leading, 5)
                     }
                 }
+            }
             }
         }
     }
