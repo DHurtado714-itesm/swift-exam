@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65D22D702AD5BD5700BBA2F7 /* swfit_examanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22D6F2AD5BD5700BBA2F7 /* swfit_examanApp.swift */; };
-		65D22D722AD5BD5700BBA2F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22D712AD5BD5700BBA2F7 /* ContentView.swift */; };
-		65D22D742AD5BD5900BBA2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D22D732AD5BD5900BBA2F7 /* Assets.xcassets */; };
-		65D22D772AD5BD5900BBA2F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D22D762AD5BD5900BBA2F7 /* Preview Assets.xcassets */; };
-		65D22D812AD5BD5900BBA2F7 /* swfit_examanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22D802AD5BD5900BBA2F7 /* swfit_examanTests.swift */; };
-		65D22D8B2AD5BD5900BBA2F7 /* swfit_examanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22D8A2AD5BD5900BBA2F7 /* swfit_examanUITests.swift */; };
-		65D22D8D2AD5BD5900BBA2F7 /* swfit_examanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22D8C2AD5BD5900BBA2F7 /* swfit_examanUITestsLaunchTests.swift */; };
+		65D22DA62AD5BEAC00BBA2F7 /* swfit_examenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DA52AD5BEAC00BBA2F7 /* swfit_examenApp.swift */; };
+		65D22DA82AD5BEAC00BBA2F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DA72AD5BEAC00BBA2F7 /* ContentView.swift */; };
+		65D22DAA2AD5BEAE00BBA2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D22DA92AD5BEAE00BBA2F7 /* Assets.xcassets */; };
+		65D22DAD2AD5BEAE00BBA2F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D22DAC2AD5BEAE00BBA2F7 /* Preview Assets.xcassets */; };
+		65D22DB72AD5BEAE00BBA2F7 /* swfit_examenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DB62AD5BEAE00BBA2F7 /* swfit_examenTests.swift */; };
+		65D22DC12AD5BEAE00BBA2F7 /* swfit_examenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DC02AD5BEAE00BBA2F7 /* swfit_examenUITests.swift */; };
+		65D22DC32AD5BEAE00BBA2F7 /* swfit_examenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DC22AD5BEAE00BBA2F7 /* swfit_examenUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		65D22D7D2AD5BD5900BBA2F7 /* PBXContainerItemProxy */ = {
+		65D22DB32AD5BEAE00BBA2F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65D22D642AD5BD5700BBA2F7 /* Project object */;
+			containerPortal = 65D22D9A2AD5BEAC00BBA2F7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65D22D6B2AD5BD5700BBA2F7;
-			remoteInfo = "swfit-examan";
+			remoteGlobalIDString = 65D22DA12AD5BEAC00BBA2F7;
+			remoteInfo = "swfit-examen";
 		};
-		65D22D872AD5BD5900BBA2F7 /* PBXContainerItemProxy */ = {
+		65D22DBD2AD5BEAE00BBA2F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 65D22D642AD5BD5700BBA2F7 /* Project object */;
+			containerPortal = 65D22D9A2AD5BEAC00BBA2F7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65D22D6B2AD5BD5700BBA2F7;
-			remoteInfo = "swfit-examan";
+			remoteGlobalIDString = 65D22DA12AD5BEAC00BBA2F7;
+			remoteInfo = "swfit-examen";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65D22D6C2AD5BD5700BBA2F7 /* swfit-examan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swfit-examan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D22D6F2AD5BD5700BBA2F7 /* swfit_examanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examanApp.swift; sourceTree = "<group>"; };
-		65D22D712AD5BD5700BBA2F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		65D22D732AD5BD5900BBA2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		65D22D762AD5BD5900BBA2F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		65D22D7C2AD5BD5900BBA2F7 /* swfit-examanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swfit-examanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D22D802AD5BD5900BBA2F7 /* swfit_examanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examanTests.swift; sourceTree = "<group>"; };
-		65D22D862AD5BD5900BBA2F7 /* swfit-examanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swfit-examanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65D22D8A2AD5BD5900BBA2F7 /* swfit_examanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examanUITests.swift; sourceTree = "<group>"; };
-		65D22D8C2AD5BD5900BBA2F7 /* swfit_examanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65D22DA22AD5BEAC00BBA2F7 /* swfit-examen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swfit-examen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D22DA52AD5BEAC00BBA2F7 /* swfit_examenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examenApp.swift; sourceTree = "<group>"; };
+		65D22DA72AD5BEAC00BBA2F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65D22DA92AD5BEAE00BBA2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D22DAC2AD5BEAE00BBA2F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65D22DB22AD5BEAE00BBA2F7 /* swfit-examenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swfit-examenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D22DB62AD5BEAE00BBA2F7 /* swfit_examenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examenTests.swift; sourceTree = "<group>"; };
+		65D22DBC2AD5BEAE00BBA2F7 /* swfit-examenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swfit-examenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D22DC02AD5BEAE00BBA2F7 /* swfit_examenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examenUITests.swift; sourceTree = "<group>"; };
+		65D22DC22AD5BEAE00BBA2F7 /* swfit_examenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_examenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65D22D692AD5BD5700BBA2F7 /* Frameworks */ = {
+		65D22D9F2AD5BEAC00BBA2F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D22D792AD5BD5900BBA2F7 /* Frameworks */ = {
+		65D22DAF2AD5BEAE00BBA2F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D22D832AD5BD5900BBA2F7 /* Frameworks */ = {
+		65D22DB92AD5BEAE00BBA2F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65D22D632AD5BD5700BBA2F7 = {
+		65D22D992AD5BEAC00BBA2F7 = {
 			isa = PBXGroup;
 			children = (
-				65D22D6E2AD5BD5700BBA2F7 /* swfit-examan */,
-				65D22D7F2AD5BD5900BBA2F7 /* swfit-examanTests */,
-				65D22D892AD5BD5900BBA2F7 /* swfit-examanUITests */,
-				65D22D6D2AD5BD5700BBA2F7 /* Products */,
+				65D22DA42AD5BEAC00BBA2F7 /* swfit-examen */,
+				65D22DB52AD5BEAE00BBA2F7 /* swfit-examenTests */,
+				65D22DBF2AD5BEAE00BBA2F7 /* swfit-examenUITests */,
+				65D22DA32AD5BEAC00BBA2F7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		65D22D6D2AD5BD5700BBA2F7 /* Products */ = {
+		65D22DA32AD5BEAC00BBA2F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65D22D6C2AD5BD5700BBA2F7 /* swfit-examan.app */,
-				65D22D7C2AD5BD5900BBA2F7 /* swfit-examanTests.xctest */,
-				65D22D862AD5BD5900BBA2F7 /* swfit-examanUITests.xctest */,
+				65D22DA22AD5BEAC00BBA2F7 /* swfit-examen.app */,
+				65D22DB22AD5BEAE00BBA2F7 /* swfit-examenTests.xctest */,
+				65D22DBC2AD5BEAE00BBA2F7 /* swfit-examenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65D22D6E2AD5BD5700BBA2F7 /* swfit-examan */ = {
+		65D22DA42AD5BEAC00BBA2F7 /* swfit-examen */ = {
 			isa = PBXGroup;
 			children = (
-				65D22D6F2AD5BD5700BBA2F7 /* swfit_examanApp.swift */,
-				65D22D712AD5BD5700BBA2F7 /* ContentView.swift */,
-				65D22D732AD5BD5900BBA2F7 /* Assets.xcassets */,
-				65D22D752AD5BD5900BBA2F7 /* Preview Content */,
+				65D22DA52AD5BEAC00BBA2F7 /* swfit_examenApp.swift */,
+				65D22DA72AD5BEAC00BBA2F7 /* ContentView.swift */,
+				65D22DA92AD5BEAE00BBA2F7 /* Assets.xcassets */,
+				65D22DAB2AD5BEAE00BBA2F7 /* Preview Content */,
 			);
-			path = "swfit-examan";
+			path = "swfit-examen";
 			sourceTree = "<group>";
 		};
-		65D22D752AD5BD5900BBA2F7 /* Preview Content */ = {
+		65D22DAB2AD5BEAE00BBA2F7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				65D22D762AD5BD5900BBA2F7 /* Preview Assets.xcassets */,
+				65D22DAC2AD5BEAE00BBA2F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		65D22D7F2AD5BD5900BBA2F7 /* swfit-examanTests */ = {
+		65D22DB52AD5BEAE00BBA2F7 /* swfit-examenTests */ = {
 			isa = PBXGroup;
 			children = (
-				65D22D802AD5BD5900BBA2F7 /* swfit_examanTests.swift */,
+				65D22DB62AD5BEAE00BBA2F7 /* swfit_examenTests.swift */,
 			);
-			path = "swfit-examanTests";
+			path = "swfit-examenTests";
 			sourceTree = "<group>";
 		};
-		65D22D892AD5BD5900BBA2F7 /* swfit-examanUITests */ = {
+		65D22DBF2AD5BEAE00BBA2F7 /* swfit-examenUITests */ = {
 			isa = PBXGroup;
 			children = (
-				65D22D8A2AD5BD5900BBA2F7 /* swfit_examanUITests.swift */,
-				65D22D8C2AD5BD5900BBA2F7 /* swfit_examanUITestsLaunchTests.swift */,
+				65D22DC02AD5BEAE00BBA2F7 /* swfit_examenUITests.swift */,
+				65D22DC22AD5BEAE00BBA2F7 /* swfit_examenUITestsLaunchTests.swift */,
 			);
-			path = "swfit-examanUITests";
+			path = "swfit-examenUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65D22D6B2AD5BD5700BBA2F7 /* swfit-examan */ = {
+		65D22DA12AD5BEAC00BBA2F7 /* swfit-examen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D22D902AD5BD5900BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examan" */;
+			buildConfigurationList = 65D22DC62AD5BEAE00BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examen" */;
 			buildPhases = (
-				65D22D682AD5BD5700BBA2F7 /* Sources */,
-				65D22D692AD5BD5700BBA2F7 /* Frameworks */,
-				65D22D6A2AD5BD5700BBA2F7 /* Resources */,
+				65D22D9E2AD5BEAC00BBA2F7 /* Sources */,
+				65D22D9F2AD5BEAC00BBA2F7 /* Frameworks */,
+				65D22DA02AD5BEAC00BBA2F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "swfit-examan";
-			productName = "swfit-examan";
-			productReference = 65D22D6C2AD5BD5700BBA2F7 /* swfit-examan.app */;
+			name = "swfit-examen";
+			productName = "swfit-examen";
+			productReference = 65D22DA22AD5BEAC00BBA2F7 /* swfit-examen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		65D22D7B2AD5BD5900BBA2F7 /* swfit-examanTests */ = {
+		65D22DB12AD5BEAE00BBA2F7 /* swfit-examenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D22D932AD5BD5900BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examanTests" */;
+			buildConfigurationList = 65D22DC92AD5BEAE00BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examenTests" */;
 			buildPhases = (
-				65D22D782AD5BD5900BBA2F7 /* Sources */,
-				65D22D792AD5BD5900BBA2F7 /* Frameworks */,
-				65D22D7A2AD5BD5900BBA2F7 /* Resources */,
+				65D22DAE2AD5BEAE00BBA2F7 /* Sources */,
+				65D22DAF2AD5BEAE00BBA2F7 /* Frameworks */,
+				65D22DB02AD5BEAE00BBA2F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65D22D7E2AD5BD5900BBA2F7 /* PBXTargetDependency */,
+				65D22DB42AD5BEAE00BBA2F7 /* PBXTargetDependency */,
 			);
-			name = "swfit-examanTests";
-			productName = "swfit-examanTests";
-			productReference = 65D22D7C2AD5BD5900BBA2F7 /* swfit-examanTests.xctest */;
+			name = "swfit-examenTests";
+			productName = "swfit-examenTests";
+			productReference = 65D22DB22AD5BEAE00BBA2F7 /* swfit-examenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		65D22D852AD5BD5900BBA2F7 /* swfit-examanUITests */ = {
+		65D22DBB2AD5BEAE00BBA2F7 /* swfit-examenUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65D22D962AD5BD5900BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examanUITests" */;
+			buildConfigurationList = 65D22DCC2AD5BEAE00BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examenUITests" */;
 			buildPhases = (
-				65D22D822AD5BD5900BBA2F7 /* Sources */,
-				65D22D832AD5BD5900BBA2F7 /* Frameworks */,
-				65D22D842AD5BD5900BBA2F7 /* Resources */,
+				65D22DB82AD5BEAE00BBA2F7 /* Sources */,
+				65D22DB92AD5BEAE00BBA2F7 /* Frameworks */,
+				65D22DBA2AD5BEAE00BBA2F7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65D22D882AD5BD5900BBA2F7 /* PBXTargetDependency */,
+				65D22DBE2AD5BEAE00BBA2F7 /* PBXTargetDependency */,
 			);
-			name = "swfit-examanUITests";
-			productName = "swfit-examanUITests";
-			productReference = 65D22D862AD5BD5900BBA2F7 /* swfit-examanUITests.xctest */;
+			name = "swfit-examenUITests";
+			productName = "swfit-examenUITests";
+			productReference = 65D22DBC2AD5BEAE00BBA2F7 /* swfit-examenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		65D22D642AD5BD5700BBA2F7 /* Project object */ = {
+		65D22D9A2AD5BEAC00BBA2F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					65D22D6B2AD5BD5700BBA2F7 = {
+					65D22DA12AD5BEAC00BBA2F7 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
-					65D22D7B2AD5BD5900BBA2F7 = {
+					65D22DB12AD5BEAE00BBA2F7 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 65D22D6B2AD5BD5700BBA2F7;
+						TestTargetID = 65D22DA12AD5BEAC00BBA2F7;
 					};
-					65D22D852AD5BD5900BBA2F7 = {
+					65D22DBB2AD5BEAE00BBA2F7 = {
 						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 65D22D6B2AD5BD5700BBA2F7;
+						TestTargetID = 65D22DA12AD5BEAC00BBA2F7;
 					};
 				};
 			};
-			buildConfigurationList = 65D22D672AD5BD5700BBA2F7 /* Build configuration list for PBXProject "swfit-examan" */;
+			buildConfigurationList = 65D22D9D2AD5BEAC00BBA2F7 /* Build configuration list for PBXProject "swfit-examen" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 65D22D632AD5BD5700BBA2F7;
-			productRefGroup = 65D22D6D2AD5BD5700BBA2F7 /* Products */;
+			mainGroup = 65D22D992AD5BEAC00BBA2F7;
+			productRefGroup = 65D22DA32AD5BEAC00BBA2F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65D22D6B2AD5BD5700BBA2F7 /* swfit-examan */,
-				65D22D7B2AD5BD5900BBA2F7 /* swfit-examanTests */,
-				65D22D852AD5BD5900BBA2F7 /* swfit-examanUITests */,
+				65D22DA12AD5BEAC00BBA2F7 /* swfit-examen */,
+				65D22DB12AD5BEAE00BBA2F7 /* swfit-examenTests */,
+				65D22DBB2AD5BEAE00BBA2F7 /* swfit-examenUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		65D22D6A2AD5BD5700BBA2F7 /* Resources */ = {
+		65D22DA02AD5BEAC00BBA2F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D22D772AD5BD5900BBA2F7 /* Preview Assets.xcassets in Resources */,
-				65D22D742AD5BD5900BBA2F7 /* Assets.xcassets in Resources */,
+				65D22DAD2AD5BEAE00BBA2F7 /* Preview Assets.xcassets in Resources */,
+				65D22DAA2AD5BEAE00BBA2F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D22D7A2AD5BD5900BBA2F7 /* Resources */ = {
+		65D22DB02AD5BEAE00BBA2F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D22D842AD5BD5900BBA2F7 /* Resources */ = {
+		65D22DBA2AD5BEAE00BBA2F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		65D22D682AD5BD5700BBA2F7 /* Sources */ = {
+		65D22D9E2AD5BEAC00BBA2F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D22D722AD5BD5700BBA2F7 /* ContentView.swift in Sources */,
-				65D22D702AD5BD5700BBA2F7 /* swfit_examanApp.swift in Sources */,
+				65D22DA82AD5BEAC00BBA2F7 /* ContentView.swift in Sources */,
+				65D22DA62AD5BEAC00BBA2F7 /* swfit_examenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D22D782AD5BD5900BBA2F7 /* Sources */ = {
+		65D22DAE2AD5BEAE00BBA2F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D22D812AD5BD5900BBA2F7 /* swfit_examanTests.swift in Sources */,
+				65D22DB72AD5BEAE00BBA2F7 /* swfit_examenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D22D822AD5BD5900BBA2F7 /* Sources */ = {
+		65D22DB82AD5BEAE00BBA2F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65D22D8D2AD5BD5900BBA2F7 /* swfit_examanUITestsLaunchTests.swift in Sources */,
-				65D22D8B2AD5BD5900BBA2F7 /* swfit_examanUITests.swift in Sources */,
+				65D22DC32AD5BEAE00BBA2F7 /* swfit_examenUITestsLaunchTests.swift in Sources */,
+				65D22DC12AD5BEAE00BBA2F7 /* swfit_examenUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65D22D7E2AD5BD5900BBA2F7 /* PBXTargetDependency */ = {
+		65D22DB42AD5BEAE00BBA2F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D22D6B2AD5BD5700BBA2F7 /* swfit-examan */;
-			targetProxy = 65D22D7D2AD5BD5900BBA2F7 /* PBXContainerItemProxy */;
+			target = 65D22DA12AD5BEAC00BBA2F7 /* swfit-examen */;
+			targetProxy = 65D22DB32AD5BEAE00BBA2F7 /* PBXContainerItemProxy */;
 		};
-		65D22D882AD5BD5900BBA2F7 /* PBXTargetDependency */ = {
+		65D22DBE2AD5BEAE00BBA2F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 65D22D6B2AD5BD5700BBA2F7 /* swfit-examan */;
-			targetProxy = 65D22D872AD5BD5900BBA2F7 /* PBXContainerItemProxy */;
+			target = 65D22DA12AD5BEAC00BBA2F7 /* swfit-examen */;
+			targetProxy = 65D22DBD2AD5BEAE00BBA2F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		65D22D8E2AD5BD5900BBA2F7 /* Debug */ = {
+		65D22DC42AD5BEAE00BBA2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		65D22D8F2AD5BD5900BBA2F7 /* Release */ = {
+		65D22DC52AD5BEAE00BBA2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,14 +409,14 @@
 			};
 			name = Release;
 		};
-		65D22D912AD5BD5900BBA2F7 /* Debug */ = {
+		65D22DC72AD5BEAE00BBA2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"swfit-examan/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swfit-examen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,7 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examan";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -437,14 +437,14 @@
 			};
 			name = Debug;
 		};
-		65D22D922AD5BD5900BBA2F7 /* Release */ = {
+		65D22DC82AD5BEAE00BBA2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"swfit-examan/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"swfit-examen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examan";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +465,7 @@
 			};
 			name = Release;
 		};
-		65D22D942AD5BD5900BBA2F7 /* Debug */ = {
+		65D22DCA2AD5BEAE00BBA2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -475,16 +475,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examanTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examenTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swfit-examan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swfit-examan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swfit-examen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swfit-examen";
 			};
 			name = Debug;
 		};
-		65D22D952AD5BD5900BBA2F7 /* Release */ = {
+		65D22DCB2AD5BEAE00BBA2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,16 +494,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examanTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examenTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swfit-examan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swfit-examan";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swfit-examen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swfit-examen";
 			};
 			name = Release;
 		};
-		65D22D972AD5BD5900BBA2F7 /* Debug */ = {
+		65D22DCD2AD5BEAE00BBA2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,16 +511,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examanUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examenUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "swfit-examan";
+				TEST_TARGET_NAME = "swfit-examen";
 			};
 			name = Debug;
 		};
-		65D22D982AD5BD5900BBA2F7 /* Release */ = {
+		65D22DCE2AD5BEAE00BBA2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -528,55 +528,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examanUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.swfit-examenUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "swfit-examan";
+				TEST_TARGET_NAME = "swfit-examen";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65D22D672AD5BD5700BBA2F7 /* Build configuration list for PBXProject "swfit-examan" */ = {
+		65D22D9D2AD5BEAC00BBA2F7 /* Build configuration list for PBXProject "swfit-examen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65D22D8E2AD5BD5900BBA2F7 /* Debug */,
-				65D22D8F2AD5BD5900BBA2F7 /* Release */,
+				65D22DC42AD5BEAE00BBA2F7 /* Debug */,
+				65D22DC52AD5BEAE00BBA2F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D22D902AD5BD5900BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examan" */ = {
+		65D22DC62AD5BEAE00BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65D22D912AD5BD5900BBA2F7 /* Debug */,
-				65D22D922AD5BD5900BBA2F7 /* Release */,
+				65D22DC72AD5BEAE00BBA2F7 /* Debug */,
+				65D22DC82AD5BEAE00BBA2F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D22D932AD5BD5900BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examanTests" */ = {
+		65D22DC92AD5BEAE00BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65D22D942AD5BD5900BBA2F7 /* Debug */,
-				65D22D952AD5BD5900BBA2F7 /* Release */,
+				65D22DCA2AD5BEAE00BBA2F7 /* Debug */,
+				65D22DCB2AD5BEAE00BBA2F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65D22D962AD5BD5900BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examanUITests" */ = {
+		65D22DCC2AD5BEAE00BBA2F7 /* Build configuration list for PBXNativeTarget "swfit-examenUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65D22D972AD5BD5900BBA2F7 /* Debug */,
-				65D22D982AD5BD5900BBA2F7 /* Release */,
+				65D22DCD2AD5BEAE00BBA2F7 /* Debug */,
+				65D22DCE2AD5BEAE00BBA2F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 65D22D642AD5BD5700BBA2F7 /* Project object */;
+	rootObject = 65D22D9A2AD5BEAC00BBA2F7 /* Project object */;
 }

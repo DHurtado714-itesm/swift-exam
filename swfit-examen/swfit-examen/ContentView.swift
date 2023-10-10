@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  swfit-examan
+//  swfit-examen
 //
 //  Created by Daniel Hurtado on 10/10/23.
 //
