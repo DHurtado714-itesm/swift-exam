@@ -22,13 +22,11 @@ class MoviesViewModel: ObservableObject{
     
     func fetchMovies(){
         isLoading = true
-        print("Movies: \(movies)")
         
         Task{
             do {
                 if let movieResponse = await moviesRequirement.getMovies() {
                     self.movies = movieResponse.results
-                    print(movieResponse)
                 }
             }
             catch{
