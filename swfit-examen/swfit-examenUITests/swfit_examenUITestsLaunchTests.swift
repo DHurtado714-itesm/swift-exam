@@ -1,13 +1,13 @@
 //
-//  swfit_examanUITestsLaunchTests.swift
-//  swfit-examanUITests
+//  swfit_examenUITestsLaunchTests.swift
+//  swfit-examenUITests
 //
 //  Created by Daniel Hurtado on 10/10/23.
 //
 
 import XCTest
 
-final class swfit_examanUITestsLaunchTests: XCTestCase {
+final class swfit_examenUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
