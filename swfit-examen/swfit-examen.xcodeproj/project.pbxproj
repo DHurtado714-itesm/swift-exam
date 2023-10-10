@@ -17,6 +17,7 @@
 		65D22DD72AD5C0BB00BBA2F7 /* NetworkAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DD62AD5C0BB00BBA2F7 /* NetworkAPIService.swift */; };
 		65D22DDA2AD5C0D700BBA2F7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 65D22DD92AD5C0D700BBA2F7 /* Alamofire */; };
 		65D22DDC2AD5C1AA00BBA2F7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D22DDB2AD5C1AA00BBA2F7 /* Movie.swift */; };
+		65D22DDF2AD5C49A00BBA2F7 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 65D22DDE2AD5C49A00BBA2F7 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D22DDF2AD5C49A00BBA2F7 /* SDWebImageSwiftUI in Frameworks */,
 				65D22DDA2AD5C0D700BBA2F7 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +211,7 @@
 			name = "swfit-examen";
 			packageProductDependencies = (
 				65D22DD92AD5C0D700BBA2F7 /* Alamofire */,
+				65D22DDE2AD5C49A00BBA2F7 /* SDWebImageSwiftUI */,
 			);
 			productName = "swfit-examen";
 			productReference = 65D22DA22AD5BEAC00BBA2F7 /* swfit-examen.app */;
@@ -284,6 +287,7 @@
 			mainGroup = 65D22D992AD5BEAC00BBA2F7;
 			packageReferences = (
 				65D22DD82AD5C0D700BBA2F7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				65D22DDD2AD5C49A00BBA2F7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 65D22DA32AD5BEAC00BBA2F7 /* Products */;
 			projectDirPath = "";
@@ -659,6 +663,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		65D22DDD2AD5C49A00BBA2F7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -666,6 +678,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 65D22DD82AD5C0D700BBA2F7 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		65D22DDE2AD5C49A00BBA2F7 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65D22DDD2AD5C49A00BBA2F7 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
